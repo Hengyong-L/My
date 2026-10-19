@@ -1,0 +1,29 @@
+﻿# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 敏感信息
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 大文件
+*.zip
+*.7z
+*.rar
+*.iso
+
+# 编辑器与 IDE
+.vscode/
+.idea/
+*.swp
